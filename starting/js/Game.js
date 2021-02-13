@@ -5,6 +5,7 @@ class Game {
   setup() {}
 
   draw() {
+    clear();
     this.background.draw();
   }
 }
