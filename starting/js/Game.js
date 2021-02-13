@@ -6,6 +6,10 @@ class Game {
   }
   setup() {}
 
+  keyPressed() {
+    this.player.keyPressed();
+  }
+
   draw() {
     // console.log("frameCount: ", frameCount);
     clear();
